@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "8bde4c60f81c9330",
+    "type": "split",
+    "children": [
+      {
+        "id": "75973525d2eeac3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "638523a3ad3e4b36",
+            "type": "leaf",
+            "state": {
+              "type": "make-folder-view",
+              "state": {
+                "contextPath": "K0n9/2. STACK"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "55b58939e455823e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a93c5ed85c6b8b1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd45b83189c04eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom"
+              }
+            }
+          },
+          {
+            "id": "a06ff0b254bdb7de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "에뮬레이션",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9420ab7ab673f23b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "782bcb51bccf4fc1",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.50152587890625
+  },
+  "right": {
+    "id": "cf1d74a4cbdebdae",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a2a6781a5d76d4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65549e1846142330",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34c4b115a3a23be6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbbdd67966628a3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4f8f7bf2d72c9366",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "05b884350ed11881",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:그래프 뷰 열기": false,
+      "obsidian42-brat:BRAT": false,
+      "canvas:새 캔버스 만들기": false,
+      "switcher:퀵 스위처 열기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "638523a3ad3e4b36",
+  "lastOpenFiles": [
+    "K0n9/4. fuzzing/dothack/Towards Comprehensive Fuzzing of TrustZone TAs.md",
+    "K0n9/4. fuzzing/dothack/취약점 분석을 위한 프롬프트 자동 생성.md",
+    "K0n9/4. fuzzing/FUZZING의 과정.md",
+    "K0n9/4. fuzzing/dothack",
+    "K0n9/4. fuzzing/dothack/dothack.md",
+    "K0n9/4. fuzzing/4. fuzzing.md",
+    "K0n9/6. ARMv8/Aarch64 컴파일 및 바뀐 몇몇.md",
+    "K0n9/6. ARMv8/6. ARMv8.md",
+    "K0n9/7. mips/mips 크로스 컴파일.md",
+    "K0n9/6. ARMv8/ARMv8의 스택프레임/ARMv8의 스택프레임.md",
+    "K0n9/7. mips/무제 파일.md",
+    "K0n9/7. mips/7. mips.md",
+    "K0n9/9. network/9. network.md",
+    "K0n9/8. Firmware/8. Firmware.md",
+    "K0n9/7. mips",
+    "K0n9/4. fuzzing/Fuzzing101 Exercise4/취약점 분석.canvas",
+    "K0n9/4. fuzzing/Fuzzing101 Exercise4/Fuzzing101 Exercise4.md",
+    "K0n9/4. fuzzing/Fuzzing101 Exercise4/TIFF란.md",
+    "toor/toor_8/toor_8.md",
+    "toor/toor_7/toor_7.md",
+    "toor/toor_project/upnp 분석.canvas",
+    "toor/toor_project/cgi 분석.canvas",
+    "toor/toor_평가문제/prob.md",
+    "toor/toor_평가문제/toor_평가문제.md",
+    "toor/toor_project/toor_project.md",
+    "K0n9/9. network/내부망, 외부망.md",
+    "K0n9/9. network/port scanning.md",
+    "K0n9/8. network/network.md",
+    "K0n9/9. network",
+    "K0n9/3. HEAP/Tcache Dup, Poisoning/Tcache Dup, Poisoning.md",
+    "K0n9/3. HEAP/3. HEAP.md",
+    "K0n9/4. fuzzing/AddressSanitizer/redzone.md",
+    "K0n9/4. fuzzing/Fuzzing101 Exercise3/취약점 분석.canvas",
+    "K0n9/4. fuzzing/picture/Pasted image 20231229205518.png",
+    "toor/toor_3/toor_3.canvas",
+    "toor/toor_project",
+    "K0n9/4. fuzzing/Make Fuzzing/hackteon_weak_gltf/weak_gltf.canvas",
+    "K0n9/6. ARMv8/MTE",
+    "K0n9/6. ARMv8/PAC",
+    "CAPSTONE/PTfuzz_Guided_Fuzzing_With_Processor_Trace_Feedback.canvas",
+    "K0n9/6. ARMv8/Aarch64에서 chaining",
+    "K0n9/6. ARMv8/Aarch64 어셈블리어",
+    "K0n9/6. ARMv8/ARMv8의 스택프레임",
+    "K0n9/6. ARMv8/Aarch64 레지스터/GPRs 레지스터 역할.canvas",
+    "K0n9/3. HEAP/House of einherjar",
+    "K0n9/4. fuzzing/Make Fuzzing/ssh_ducktyping/ducktyping 구조.canvas",
+    "Pasted image 20240315121720.png",
+    "Pasted image 20240314201954.png",
+    "Pasted image 20240314174531.png",
+    "Pasted image 20240314174530.png",
+    "Pasted image 20240314174525.png",
+    "Pasted image 20240314034518.png",
+    "Pasted image 20240314033849.png",
+    "K0n9/6. ARMv8/Aarch64 레지스터/FPRs 레지스터 역할.canvas",
+    "K0n9/4. fuzzing/picture/Pasted image 20240126044126.png",
+    "K0n9/4. fuzzing/picture/Pasted image 20240126105737.png"
+  ]
+}

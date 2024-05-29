@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"59a90c5264ff9eb8","type":"text","text":"X0 ~ X7","x":-220,"y":-34,"width":160,"height":54},
+		{"id":"ce8d757da8b40ee9","type":"text","text":"함수 호출 시 인자 전달 및 반환 값에 사용된다. 첫 번째 인자는 X0, 두 번째 인자는 X1에... 이렇게 최대 8개의 인수를 전달할 수 있다.\n함수가 값을 반환할 때는 X0을 사용한다.","x":0,"y":-67,"width":600,"height":120},
+		{"id":"e982e0fa4a145285","type":"text","text":"간접적인 함수 호출이나 시스템 호출 번호에 사용된다.","x":0,"y":53,"width":600,"height":60},
+		{"id":"50e4ffdac2d9a3c6","type":"text","text":"X8","x":-220,"y":56,"width":160,"height":54},
+		{"id":"21b1fb96c30cdb65","type":"text","text":"간접 호출이란 함수 주소가 런타임에 결정되는 호출 방식이다.","x":680,"y":55,"width":560,"height":57},
+		{"id":"a48a4be79c07036a","type":"text","text":"X0 ~ X17 레지스터가 보존되어야 하는 경우, 호출자가 이 레지스터들을 자신의 스택 프레임에 저장해야 한다.. 호출된 함수는 리턴 시 이 레지스터가 호출 전 상태로 유지되도록 보장할 필요가 없다.","x":680,"y":112,"width":560,"height":140},
+		{"id":"ecc41ff262880296","type":"text","text":"호출자 임시 저장 레지스터이다.","x":0,"y":152,"width":600,"height":60},
+		{"id":"5469f867d90920e9","type":"text","text":"X9 ~ X15","x":-220,"y":155,"width":160,"height":54},
+		{"id":"51b34c9fdc4466c9","type":"text","text":"프로시저 간의 링크에 사용된다. (IP0, IP1)","x":0,"y":249,"width":600,"height":60},
+		{"id":"6b837114611e674a","type":"text","text":"X16, X17","x":-220,"y":252,"width":160,"height":54},
+		{"id":"a11ce1027d1a9822","type":"text","text":"플랫폼 레지스터, 특정 운영 체제나 환경에서 특별한 용도로 사용될 수 있다.","x":0,"y":309,"width":600,"height":83},
+		{"id":"db4d18047b095544","type":"text","text":"X18 (PR)","x":-220,"y":323,"width":160,"height":54},
+		{"id":"668b574752bc2e00","type":"text","text":"지역 변수나 함수의 상태를 저장하는 데 사용되는 보존 레지스터이다. ","x":0,"y":392,"width":600,"height":80},
+		{"id":"195d340fba6656ea","type":"text","text":"X19 ~ X29 레지스터는 호출된 함수가 복원을 담당해야 한다.","x":680,"y":404,"width":560,"height":57},
+		{"id":"c5bc59877c43cc4a","type":"text","text":"X19 ~ X28","x":-220,"y":405,"width":160,"height":54},
+		{"id":"0f55d52a8811fa85","type":"text","text":"프레임 포인터로, 현재 함수의 스택 프레임을 참조하는데 사용된다.","x":0,"y":472,"width":600,"height":60},
+		{"id":"df51ba173304af83","type":"text","text":"X29 (FP)","x":-220,"y":475,"width":160,"height":54},
+		{"id":"39ebd46119501966","type":"text","text":"링크 레지스터로 함수 호출 시 반환 주소를 저장하는데 사용된다.","x":0,"y":532,"width":600,"height":60},
+		{"id":"6e4b903953b5a4c6","type":"text","text":"X30 (LR)","x":-220,"y":535,"width":160,"height":54}
+	],
+	"edges":[
+		{"id":"016358cf6afff29a","fromNode":"59a90c5264ff9eb8","fromSide":"right","toNode":"ce8d757da8b40ee9","toSide":"left"},
+		{"id":"86fee2987c340840","fromNode":"50e4ffdac2d9a3c6","fromSide":"right","toNode":"e982e0fa4a145285","toSide":"left"},
+		{"id":"4031de664261fba6","fromNode":"5469f867d90920e9","fromSide":"right","toNode":"ecc41ff262880296","toSide":"left"},
+		{"id":"8c3883a31e80922e","fromNode":"6b837114611e674a","fromSide":"right","toNode":"51b34c9fdc4466c9","toSide":"left"},
+		{"id":"ac51730fef91d318","fromNode":"db4d18047b095544","fromSide":"right","toNode":"a11ce1027d1a9822","toSide":"left"},
+		{"id":"ff7b0057a6717b09","fromNode":"e982e0fa4a145285","fromSide":"right","toNode":"21b1fb96c30cdb65","toSide":"left"},
+		{"id":"090cb4b6bbb48be0","fromNode":"ecc41ff262880296","fromSide":"right","toNode":"a48a4be79c07036a","toSide":"left"},
+		{"id":"2591c797fe9f35c1","fromNode":"668b574752bc2e00","fromSide":"right","toNode":"195d340fba6656ea","toSide":"left"},
+		{"id":"47dcb7784f740f5f","fromNode":"c5bc59877c43cc4a","fromSide":"right","toNode":"668b574752bc2e00","toSide":"left"},
+		{"id":"66eead98ce0dd28c","fromNode":"df51ba173304af83","fromSide":"right","toNode":"0f55d52a8811fa85","toSide":"left"},
+		{"id":"fa22b28b09b7caa9","fromNode":"6e4b903953b5a4c6","fromSide":"right","toNode":"39ebd46119501966","toSide":"left"},
+		{"id":"3322296b34e5ef66","fromNode":"ce8d757da8b40ee9","fromSide":"right","toNode":"a48a4be79c07036a","toSide":"left"},
+		{"id":"9bfd5370804b786c","fromNode":"e982e0fa4a145285","fromSide":"right","toNode":"a48a4be79c07036a","toSide":"left"},
+		{"id":"a98ad7871ed7b39a","fromNode":"51b34c9fdc4466c9","fromSide":"right","toNode":"a48a4be79c07036a","toSide":"left"}
+	]
+}

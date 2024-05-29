@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "867e38856b47eef5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5a6cd37a9e45d56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b8cde930982da9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "obsidian_K0n9/toor/toor_3/toor_3.canvas",
+                "viewState": {
+                  "x": 195.7593794507885,
+                  "y": 3710.2708522232274,
+                  "zoom": -0.5870839690795551
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56d411a829bd6d79",
+    "type": "split",
+    "children": [
+      {
+        "id": "75592300fd47e6bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "75624ea88292d689",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "93beb8484ec31078",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5673a87c9dc031f8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3207013f38734028",
+    "type": "split",
+    "children": [
+      {
+        "id": "6211167425cb87e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "384fb4d13abc56f1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian_K0n9/toor/toor_3/toor_3.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "616942fd7af5a7f6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian_K0n9/toor/toor_3/toor_3.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e33b98b147d499a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f2c6eea6d8b36439",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian_K0n9/toor/toor_3/toor_3.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "75624ea88292d689",
+  "lastOpenFiles": []
+}

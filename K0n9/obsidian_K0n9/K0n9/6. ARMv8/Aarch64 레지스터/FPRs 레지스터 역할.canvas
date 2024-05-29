@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"316a76880c7aa7f8","type":"text","text":"V0 ~ V7","x":-200,"y":-25,"width":160,"height":60},
+		{"id":"82c1c984df999ebb","type":"text","text":"V8 ~ V15","x":-200,"y":80,"width":160,"height":60},
+		{"id":"122ad31bd2a87e36","type":"text","text":"V16 ~ V31","x":-200,"y":200,"width":160,"height":60},
+		{"id":"12424d745779c69e","type":"text","text":"함수 호출 시 부동 소수점 인자 전달 및 반환 값에 사용된다.","x":40,"y":-25,"width":540,"height":60},
+		{"id":"c39ccd7fb44f3ba6","type":"text","text":"임시 저장용 레지스터이다.","x":40,"y":80,"width":540,"height":60},
+		{"id":"b910ba76411e1876","type":"text","text":"지역 변수나 함수의 상태를 저장하는데 사용되는 보존 레지스터이다. 함수가 이 레지스터들의 값을 변경하기 전에 원래 값을 저장해야 하며, 함수가 종료되기 전에 복원해야 한다.","x":40,"y":170,"width":540,"height":120},
+		{"id":"22e553d88ebf2bd0","type":"text","text":"스크래치 레지스터","x":760,"y":110,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"fb2a3923f2536e8e","fromNode":"316a76880c7aa7f8","fromSide":"right","toNode":"12424d745779c69e","toSide":"left"},
+		{"id":"5eca3be7dd6e0028","fromNode":"82c1c984df999ebb","fromSide":"right","toNode":"c39ccd7fb44f3ba6","toSide":"left"},
+		{"id":"2275ae3505db6edb","fromNode":"122ad31bd2a87e36","fromSide":"right","toNode":"b910ba76411e1876","toSide":"left"},
+		{"id":"eefde6bc76a0efd2","fromNode":"12424d745779c69e","fromSide":"right","toNode":"22e553d88ebf2bd0","toSide":"left"},
+		{"id":"258d750ff685f137","fromNode":"b910ba76411e1876","fromSide":"right","toNode":"22e553d88ebf2bd0","toSide":"left"}
+	]
+}
